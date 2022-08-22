@@ -1,1 +1,16 @@
+/** opmaak algemeen*/
 
+body {
+	font-family: calibri, arial;
+	font-weight: 300;
+	color: #4d4d4d;
+	margin: 0 ;
+	padding: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #FFFFFC;
+	line-height: 0;
+	border: 0;
+	
+}
