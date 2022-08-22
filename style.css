@@ -25,3 +25,13 @@ margin: 0;
 padding: 0;
 line-height: 115%;
 }
+
+
+/** lettertype aanroepen*/
+
+@font-face {
+font-family: 'Street';
+font-style: normal;
+font-weight: normal;
+src: local('Street Compact'), url('Street/STREET__.ttf') format('truetype');
+}
