@@ -122,6 +122,8 @@ img {
 ---------------------------------------------
 global styles
 --------------------------------------------- 
+ #5c5c5c; /*hoofdkleur, oorsp donkerrood #a12c2f;*/  #929292; /*tweede kleur, oorsp geel #f5a425*/    #939393 /*accentkleur tweede kleur geel #fb5849*/
+
 */
 html,
 body {
@@ -130,12 +132,12 @@ body {
 }
 
 ::selection {
-  background: #f5a425;
+  background: #929292; /*#f5a425*/
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f5a425;
+  background: #929292; /*#f5a425*/
   color: #fff;
 }
 
@@ -174,7 +176,7 @@ body {
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
-  background-color: #f5a425;
+  background-color: #f5a425
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -252,12 +254,12 @@ header
 }
 
 .sub-header .right-icons ul li a:hover {
-  color: #f5a425;
+  color: #929292; /*#f5a425*/
 }
 
 .sub-header .left-content p em {
    font-style: normal;
-   color: #f5a425;
+   color: #5c5c5c; /*#a12c2f;*/  #929292; /*#f5a425*/
 }
 
 .background-header {
@@ -280,11 +282,13 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fb5849!important;
+  color: #939393!important; /*#fb5849*/
 }
 
+
+
 .background-header .nav li a.active {
-  color: #fb5849!important;
+  color: #939393!important; /*#fb5849*/
 }
 
 .header-area {
@@ -367,12 +371,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #929292!important; /*#f5a425*/ 
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #f5a425!important;
+  color: #929292!important; /*#f5a425*/ 
   opacity: 1;
 }
 
@@ -434,7 +438,7 @@ header
 
 .header-area .main-nav .nav li.has-sub ul li a:hover {
   background: #fff;
-  color: #f5a425!important;
+  color: #929292!important; /*#f5a425*/
   padding-left: 25px;
 }
 
@@ -593,7 +597,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #f5a425!important;
+    color: #929292!important; /*#f5a425*/
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -651,8 +655,8 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #f5a425!important;
-  }
+    color:  #929292!important; /*#f5a425*/
+  }	
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     position: relative;
     visibility: inherit;
@@ -681,6 +685,7 @@ header
     font-size: 14px;
     top: 15px;
   }
+	
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
@@ -756,7 +761,7 @@ banner
 
 .main-banner .caption h2 em {
   font-style: normal;
-  color: #f5a425;
+  color: #929292; /*#f5a425*/
   font-weight: 900;
 }
 
@@ -947,7 +952,7 @@ section.upcoming-meetings .categories ul li a {
 }
 
 section.upcoming-meetings .categories ul li a:hover {
-  color: #a12c2f;
+  color: #5c5c5c; /*#a12c2f;*/
 }
 
 section.upcoming-meetings .categories .main-button-red {
@@ -1007,7 +1012,7 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #5c5c5c; /*#a12c2f;*/
 }
 
 .meeting-item .down-content .date span {
@@ -1099,9 +1104,9 @@ section.apply-now .item p {
   transition: transform 200ms ease-in-out;
 }
 .accordion-head.is-open {
-  color: #f5a425;
+  color: #929292; /*#f5a425*/ 
   border-bottom: none;
-}
+} 
 .accordion-head.is-open .icon {
   transform: rotate(45deg);
 }
@@ -1155,12 +1160,12 @@ section.our-courses {
 }
 
 .our-courses .item .down-content .info ul li i {
-  color: #f5a425;
+  color: #929292; /*#f5a425*/
   font-size: 14px;
 }
 
 .our-courses .item .down-content .info span {
-  color: #a12c2f;
+  color: #5c5c5c; /*#a12c2f;*/ 
   font-size: 15px;
   font-weight: 600;
   text-align: right;
@@ -1400,7 +1405,7 @@ section.contact-us #contact textarea {
 section.contact-us #contact button {
   font-size: 13px;
   color: #fff;
-  background-color: #a12c2f;
+  background-color: #5c5c5c; /*#a12c2f;*/  
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -1416,7 +1421,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: #5c5c5c; /*hoofdkleur, oorsp donkerrood #a12c2f;*/ 
   border-radius: 20px;
   padding: 40px;
 }
@@ -1461,9 +1466,8 @@ section.contact-us .right-info ul li span {
 }
 
 .footer p a {
-  color: #f5a425;
+  color: #929292; /*tweede kleur, oorsp geel #f5a425*/
 }
-
 
 /*
 ---------------------------------------------
@@ -1524,7 +1528,8 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color:#5c5c5c; /*hoofdkleur, oorsp donkerrood #a12c2f;*/
+
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1538,7 +1543,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color:  #5c5c5c; /*hoofdkleur, oorsp donkerrood #a12c2f;*/ 
   color: #fff;
 }
 
@@ -1579,7 +1584,7 @@ section.meetings-page .main-button-red a {
 
 section.meetings-page .pagination ul li.active a,
 section.meetings-page .pagination ul li a:hover {
-  background-color: #a12c2f;
+  background-color:  #5c5c5c; /*hoofdkleur, oorsp donkerrood #a12c2f;*/
   color: #fff;
 }
 
