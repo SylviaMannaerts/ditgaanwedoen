@@ -187,6 +187,23 @@ body {
   opacity: 0.9;
 }
 
+.main-button-grey a {
+  font-size: 13px;
+  color: #fff;
+  background-color: #C0C0C0;
+  padding: 12px 30px;
+  display: inline-block;
+  border-radius: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+
+.main-button-grey a:hover {
+  opacity: 0.9;
+}
+
+
 .section-heading h2 {
   line-height: 40px;
   margin-top: 0px;
